@@ -1,0 +1,26 @@
+{% extends "admin.html" %}
+
+{% block content %}
+    <div class="main" style="margin-left: 280px; padding: 20px;">
+        <div class="welcome-text" style="font-size: 24px; margin-bottom: 20px;">Welcome, District Administrator!</div>
+        
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card" style="background-color: #fff; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                    <div class="card-title" style="font-size: 20px; margin-bottom: 15px; color: #333;">Registered Thanas</div>
+                    <p style="color: #333;">View and manage registered Thanas in your district.</p>
+                    <a href="{{ url_for('register') }}" class="btn btn-primary">Manage Thanas</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card" style="background-color: #fff; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                    <div class="card-title" style="font-size: 20px; margin-bottom: 15px; color: #333;">Manage Users</div>
+                    <p style="color: #333;">Manage users and their permissions within the system.</p>
+                    <a href="{{ url_for('manage_user') }}" class="btn btn-primary">Manage Users</a>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+
+{% endblock %}
