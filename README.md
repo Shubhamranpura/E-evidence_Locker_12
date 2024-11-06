@@ -97,7 +97,7 @@ Contributions to improve the project are welcome! Please fork the repository, ma
 
 For any inquiries or suggestions, feel free to contact:
 **Arjun Vishnubhai Prajapati**  
-Email: [prajapatiarjun2801@example.com](mailto:prajapatiarjun2801@example.com)  
-GitHub: [ArjunPraja](https://github.com/ArjunPraja)
+Email: [ranpurashubham3108@gmail.com](mailto:ranpurashubham3108@gmail.com)  
+GitHub: [Shubhamranpura](https://github.com/shubhamranpura)
 
 
